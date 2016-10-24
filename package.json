@@ -1,0 +1,29 @@
+{
+  "name": "sheng_server",
+  "version": "1.0.0",
+  "description": "for EC project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "shengjie",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "keywords": [
+    "top",
+    "taobao",
+    "open api",
+    "top client"
+  ],
+  "main": "topClient.js",
+  "dependencies": {
+    "urllib": ">=0.5.2"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}

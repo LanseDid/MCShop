@@ -1,0 +1,238 @@
+//the port of main about index
+@import "head-common";
+@import "foot-common";
+
+#main {
+  height: 3289px;
+  .mainmid {
+    width: 960px;
+    height: 3289px;
+    margin: 0 auto;
+    padding-top: 10px;
+    .main-slider {
+      width: 960px;
+      height: 500px;
+      position: relative;
+      overflow: hidden;
+      .main-slider-ul{
+        position: absolute;
+        left: 0;
+        top: 0;
+        li{
+          width:960px;
+          height:500px;
+          float: left;
+          img{
+            display: block;
+          }
+        }
+      }
+      button{
+        position: absolute;
+        background: rgba(0,0,0,0.5);
+        width: 27px;
+        height:66px;
+        border:none;
+        top:217px;
+        color: #ffffff;
+      }
+      .main-slider-prvebtn{
+        left:10px;
+
+      }
+      .main-slider-nextbtn{
+        right:10px;
+      }
+    }
+    .weekly {
+      width: 960px;
+      height: 440px;
+      .weekly-inner {
+        width: 960px;
+        height: 386px;
+        .weekly-inner-1 {
+          width: 316px;
+          height: 386px;
+          float: left;
+        }
+        .weekly-inner-2 {
+          width: 316px;
+          height: 386px;
+          float: left;
+          margin-left: 6px;
+        }
+        .weekly-inner-3 {
+          width: 316px;
+          height: 386px;
+          float: left;
+          margin-left: 6px;
+        }
+      }
+    }
+    .weekly-title {
+      margin-top: 15px;
+      width: 960px;
+      height: 54px;
+      text-align: center;
+      color: #333333;
+      font-size: 16px;
+      background: url("../../resource/imgs/index_main_1.gif") no-repeat center center;
+    }
+    .main-sold {
+      width: 960px;
+      height: 319px;
+      .main-sold-solider {
+        width: 960px;
+        height: 265px;
+        position: relative;
+        overflow: hidden;
+        .main-sold-solider-ul{
+          padding-top:10px;
+          position: absolute;
+          li{
+            float: left;
+            width: 160px;
+            text-align: center;
+          }
+        }
+      }
+    }
+    .main-trends {
+      width: 960px;
+      height: 318px;
+      .main-trends-inner {
+        width: 960px;
+        height: 253px;
+        a {
+          float: left;
+          margin-right: 6px;
+          position: relative;
+          img {
+            width: 316px;
+            height: 247px;
+          }
+          p {
+            width: 316px;
+            height: 36px;
+            position: absolute;
+            bottom: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            line-height: 36px;
+            span {
+              color: #000;
+              font-size: 16px;
+              padding-left: 15px;
+            }
+          }
+        }
+        .no-right-margin {
+          margin-right: 0;
+        }
+      }
+    }
+    .main-subscribe {
+      width: 960px;
+      height: 286px;
+      .main-subscribe-inner {
+        width: 960px;
+        height: 215px;
+        a {
+          float: left;
+        }
+        .main-subscribe-email {
+          width: 316px;
+          height: 215px;
+          margin-left: 6px;
+          float: left;
+          text-align: center;
+          .emailinput {
+            float: left;
+            width: 124px;
+            height: 25px;
+            padding-left: 36px;
+            padding-right: 3;
+            border: 1px solid #a3a3a3;
+            margin-left: 45px;
+            margin-right: 5px;
+            background: url("../../resource/imgs/footico.gif") no-repeat;
+            background-position: -40px -32px;
+          }
+          .subscription {
+            float: left;
+            width: 70px;
+            height: 27px;
+            background: #333333;
+            color: #ffffff;
+            line-height: 27px;
+            text-align: center;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+#floatdiv{
+  width:100%;
+  height:60px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  position: fixed;
+  background: #ffffff;
+  display: none;
+  opacity: 0;
+  top:0;
+  .floatdiv-mid{
+    height:60px;
+    width:960px;
+    margin:0 auto;
+    img{
+      float: left;
+      width:200px;
+      height:35px;
+      margin-top:15px;
+    }
+    .floatdiv-search{
+      float: left;
+      width:590px;
+      height:28px;
+      border:2px solid rgb(142, 12, 58);
+      margin-top:15px;
+      margin-left:50px;
+      .float-input{
+        width:556px;
+        height:28px;
+        padding-left:6px;
+        float: left;
+        border: none;
+      }
+      .float-btn{
+        width:28px;
+        height:28px;
+        float: left;
+        border:none;
+        background: url("../../resource/imgs/searchBtn2.gif") no-repeat center center;
+      }
+    }
+    .floatdiv-second{
+      float: right;
+      width:80px;
+      height:35px;
+      margin-top:15px;
+      img{
+        width:16px;
+        height:13px;
+        float: left;
+        margin-top:10px;
+        margin-right:9px;
+        cursor: pointer;
+      }
+      span{
+        float: left;
+        margin-top:6px;
+        cursor: pointer;
+        color: rgb(142, 12, 58);
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+@import "head-common";
+@import "foot-common";
+
+#head{
+  height: 136px;
+}
+#foot{
+  height: 122px;
+  margin-top:20px;
+  .footmid{
+    height:122px;
+    .foot-nav{
+      margin-top:3px;
+      margin-bottom: 3px;
+    }
+  }
+}
+#main{
+  padding-top:20px;
+  .mainmid{
+    width:960px;
+    height:490px;
+    padding-top:27px;
+    margin: 0 auto;
+    background: url("../../resource/imgs/register_main_bg.jpg") no-repeat center center;
+    .mainmid-welcome{
+      margin-left:66px;
+      height:142px;
+      margin-bottom:20px;
+    }
+    form{
+      margin-left:100px;
+      padding-left:10px;
+      label{
+        color: #666666;
+      }
+      .username,.password{
+        width:200px;
+        height:20px;
+        line-height: 20px;
+        color: #cccccc;
+        border:1px solid #bbbbbb;
+      }
+      .checkbox{
+        margin-left:66px;
+        vertical-align: middle;
+        margin-right:5px;
+      }
+      .forget-pw{
+        margin-left:55px;
+      }
+      .login{
+        width:204px;
+        height:30px;
+        border:none;
+        background: #8e0c3a;
+        line-height:30px;
+        text-align: center;
+        color: #ffffff;
+        margin-left:66px;
+        margin-bottom:5px;
+      }
+      .to-registe{
+        margin-left:66px;
+        margin-bottom:10px;
+        width:204px;
+        height:20px;
+        span{
+          display: inline-block;
+          float: right;
+          a{
+            color: #8e0c3a;
+          }
+        }
+      }
+      .error-info{
+        margin-left:66px;
+        color: #8e0c3a;
+      }
+    }
+  }
+}

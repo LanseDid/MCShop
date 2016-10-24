@@ -1,0 +1,27 @@
+[
+  {
+    "src":"resource/imgs/details_recommend_1.jpg",
+    "brand":"Saint Laurent 圣罗兰",
+    "dscription":"春夏新款 全棉 男仕 短袖T恤/POLO"
+  },
+  {
+    "src":"resource/imgs/details_recommend_2.jpg",
+    "brand":"Moschino 莫斯奇诺",
+    "dscription":"棉质 女士 短袖T恤"
+  },
+  {
+    "src":"resource/imgs/details_recommend_3.jpg",
+    "brand":"Armani 阿玛尼",
+    "dscription":"全棉 男仕 短袖POLO衫"
+  },
+  {
+    "src":"resource/imgs/details_recommend_4.jpg",
+    "brand":"Armani 阿玛尼",
+    "dscription":"棉质 男仕 短袖T恤/POLO"
+  },
+  {
+    "src":"resource/imgs/details_recommend_5.jpg",
+    "brand":"McQ by Alexander ",
+    "dscription":"McQueen 麦蔻<br>全棉 男仕 短袖T恤"
+  }
+]

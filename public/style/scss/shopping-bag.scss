@@ -1,0 +1,230 @@
+@import "head-common";
+@import "foot-common";
+
+#head{
+  height: 136px;
+}
+#foot{
+  height: 122px;
+  margin-top:20px;
+  .footmid{
+    height:122px;
+    .foot-nav{
+      margin-top:3px;
+      margin-bottom: 3px;
+    }
+  }
+}
+
+#main{
+  //height:699px;
+  .mainmid{
+    width: 960px;
+    height:457px;
+    padding-top:10px;
+    margin: 0 auto;
+    .shopbaginner{
+      width:958px;
+      height:300px;
+      border:1px solid rgb(204, 204, 204);
+      margin-top:10px;
+      margin-bottom:10px;
+      background: rgb(249, 249, 249);
+      .car-none-goods{
+        width:305px;
+        height:70px;
+        margin-top:100px;
+        margin-left:269px;
+        padding-top:20px;
+        padding-left:115px;
+        background: url("../../resource/imgs/cartico.png")  no-repeat left center;
+        a{
+          color: rgb(142, 12, 58);
+        }
+        a:hover{
+          color: rgb(142, 12, 58);
+        }
+      }
+    }
+    .car-goods{
+      display: none;
+      .ordertop{
+        height:38px;
+        border:1px solid rgb(140, 190, 124);
+        background: rgb(244, 255, 243);
+        margin-top:5px;
+        margin-bottom:10px;
+        padding-left:50px;
+        line-height: 38px;
+        em{
+          float: left;
+          margin-top:10px;
+          margin-right:5px;
+          width:16px;
+          height:16px;
+          background: url("../../resource/imgs/tipico01.png") no-repeat;
+          background-position: 0 -40px;
+        }
+      }
+      table{
+        width:966px;
+        margin-left: -2px;
+        tbody{
+          .head-tr{
+            width:964px;
+            height:40px;
+            background: rgb(238, 238, 238);
+            th{
+              //float: left;
+              line-height: 40px;
+              border: 0;
+            }
+            td{
+              float: left;
+            }
+            .tab-pic{
+              width:98px;
+              height:38px;
+
+            }
+            .tab-name{
+              width: 508px;
+              height:38px;
+            }
+            .tab-num{
+              width:148px;
+              height:38px;
+            }
+            .tab-pri{
+              width:98px;
+              height:38px;
+            }
+            .tab-ope{
+              width:98px;
+              height:38px;
+            }
+          }
+          .goodstr{
+            width:966px;
+            height:90px;
+            .goods-pic{
+              width:100px;
+              height:70px;
+              text-align: center;
+              float: left;
+              padding-top:20px;
+              border-bottom: 1px solid rgb(238, 238, 238);
+            }
+            .goods-name{
+              width: 508px;
+              height:70px;
+              float: left;
+              padding-top:20px;
+              border-bottom: 1px solid rgb(238, 238, 238);
+            }
+            .goods-num{
+              width:148px;
+              height:90px;
+              float: left;
+              line-height: 90px;
+              text-align: center;
+              border-bottom: 1px solid rgb(238, 238, 238);
+            }
+            .goods-pri{
+              width:98px;
+              height:90px;
+              float: left;
+              line-height:90px;
+              text-align: center;
+              border-bottom: 1px solid rgb(238, 238, 238);
+            }
+            .goods-ope{
+              width:98px;
+              height:71px;
+              float: left;
+              text-align: center;
+              padding-top: 20px;
+              border-bottom: 1px solid rgb(238, 238, 238);
+            }
+          }
+        }
+      }
+      .total-submit{
+        width:960px;
+        height:37px;
+        line-height:37px;
+        margin-top:10px;
+        .total-price{
+          div{
+            float: right;
+            .price{
+              display: inline-block;
+              margin-left:30px;
+              margin-right:30px;
+              font-size: 20px;
+              color: rgb(142, 12, 58);
+            }
+          }
+        }
+        .submit{
+          clear: both;
+          width:158px;
+          height:48px;
+          float: right;
+          background: url("../../resource/imgs/cartbtn.gif");
+          border:none;
+        }
+      }
+    }
+  }
+}
+.weekly-title {
+  width: 960px;
+  height: 54px;
+  text-align: center;
+  color: #333333;
+  font-size: 16px;
+  background: url("../../resource/imgs/index_main_1.gif") no-repeat center center;
+}
+.guessyoulike{
+  margin-top:20px;
+  height:346px;
+  .guessmid {
+    width: 960px;
+    height: 326px;
+    margin: 0 auto;
+    h2 {
+      width: 960px;
+      height: 33px;
+      margin-bottom: 6px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #000;
+      text-align: center;
+    }
+    .guess-p{
+      width:50px;
+      height:18px;
+      border-top:1px solid #000;
+      margin-left:455px;
+      color: rgb(108, 108, 108);
+    }
+    ul{
+      width:960px;
+      height:251px;
+      li{
+        float: left;
+        width:188px;
+        height:251px;
+        margin-left:2px;
+        img{
+          width:160px;
+          height:192px;
+        }
+        p{
+          width:162px;
+        }
+      }
+    }
+  }
+}

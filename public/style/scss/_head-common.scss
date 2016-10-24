@@ -1,0 +1,306 @@
+//default demo
+html, body, p, ul, li, ol, dl, dd, dt, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset, img {
+  border: none;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover, a:active, a:focus {
+  color: #f00;
+  text-decoration: none;
+}
+//the common-head of the project
+//the height and width of the common head-height/width
+$headHeight: 170px;
+$headmidWidth: 960px;
+
+#head{
+  height: $headHeight;
+  .head-top{
+    height: 36px;
+    background: #f4f4f4;
+    .head-top-mid{
+      width:$headmidWidth;
+      height:36px;
+      margin:0 auto;
+      color: #7a7a7a;
+      .head-top-mid-leftul{
+        float: left;
+        height:36px;
+        line-height: 36px;
+        li{
+          float: left;
+          padding-right:15px;
+          a{
+            color: #7a7a7a;
+          }
+          a:hover{
+            color:#8e0c3a;
+          }
+          img{
+            vertical-align: middle;
+          }
+        }
+      }
+      .head-top-mid-rightul{
+        float: right;
+        height:36px;
+        line-height: 36px;
+        li{
+          float: left;
+          padding-left: 24px;
+          a{
+            span{
+              color: #8e0c3a;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  .head-top-mid-rightli1-backgorund{
+    position: relative;
+    .head-top-second{
+      width:160px;
+      height:60px;
+      border:1px solid #cccccc;
+      position: absolute;
+      background: #ffffff;
+      left:-82px;
+      display: none;
+      dl{
+        margin-top:10px;
+        float: left;
+        text-align: center;
+        width: 80px;
+        height:60px;
+        dt{
+          height:23px;
+        }
+        dd{
+          height:23px;
+        }
+      }
+    }
+    .follow-closely{
+      float: left;
+      width: 13px;
+      height:12px;
+      margin-top: 12px;
+      margin-right:2px;
+      background: url("../../resource/imgs/headico01.png") no-repeat;
+      background-position: -3px -16px;
+    }
+    .follow-closely:hover{
+      background-position: -23px -16px;
+    }
+  }
+  .head-top-mid-rightli2-backgorund{
+    position: relative;
+    .head-top-second{
+      width:265px;
+      padding-top:5px;
+      padding-bottom: 10px;
+      border:1px solid rgb(204, 204, 204);
+      border-top: none;
+      background: #ffffff url("../../resource/imgs/xxx.gif") no-repeat top center;
+      position: absolute;
+      z-index: 2;
+      padding-left:10px;
+      paddng-right:5px;
+      left: -155px;
+      top:36px;
+      display: none;
+      dl{
+        width:255px;
+        height:60px;
+        border-bottom:1px solid #cccccc;
+        dt{
+          float: left;
+          margin-right: 3px;
+        }
+        dd{
+          float: left;
+          width:190px;
+          margin-top:0;
+          margin-bottom:0;
+          line-height: 18px;
+        }
+      }
+    }
+    em{
+      float: left;
+      width: 20px;
+      height:16px;
+      margin-top: 10px;
+      margin-right:4px;
+      background: url("../../resource/imgs/headico01.png") no-repeat;
+      background-position: 0px -30px;
+    }
+    img{
+      margin-left: 6px;
+      vertical-align: middle;
+    }
+    span{
+      padding-left: 2px;
+      padding-right: 2px;
+    }
+    a:hover{
+      color:#7a7a7a;
+    }
+  }
+
+  .head-logo{
+    height:100px;
+    .head-logo-mid{
+      width: $headmidWidth;
+      height:100px;
+      margin:0 auto;
+      .head-logo-wechat{
+        float: left;
+        margin-top: 12px;
+        margin-left: 15px;
+        img{
+          vertical-align: middle;
+        }
+      }
+      .head-logo-logo{
+        float: left;
+        margin-left: 162px;
+        margin-top:25px;
+        cursor: pointer;
+      }
+      .head-logo-search{
+        float: right;
+        margin-top: 37px;
+        .search{
+          float: left;
+          width:130px;
+          height:24px;
+          color: #999;
+          font-size: 12px;
+          line-height: 24px;
+          padding-left: 2px;
+          border:1px solid #afafaf;
+          border-right:none;
+        }
+        .searchbtn{
+          width: 26px;
+          height:26px;
+          float: left;
+          border:1px solid #afafaf;
+          border-left:none;
+          background: url("../../resource/imgs/head5.jpg") no-repeat left center;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .head-nav{
+    height:33px;
+    .head-nav-mid{
+      width: $headmidWidth;
+      height:33px;
+      margin:0 auto;
+      .head-nav-ul{
+        width:960px;
+        height:33px;
+        position: relative;
+        border-bottom: 1px solid #333333;
+        li{
+          float: left;
+          a{
+            text-align: center;
+            display: block;
+            width: 108px;
+            height:33px;
+            color: #333333;
+            line-height: 33px;
+          }
+          a:hover{
+            color: #fff;
+            background: #8e0c3a;
+          }
+          .main-second-level{
+            width:943px;
+            padding-top:15px;
+            padding-left:15px;
+            padding-bottom:20px;
+            position: absolute;
+            z-index: 99;
+            height:auto;
+            display: none;
+            left:0px;
+            background: #ffffff;
+            border:1px solid #cccccc;
+            .main-second-level-dl{
+              float: left;
+              margin-left:10px;
+              margin-right:10px;
+              dt{
+                color: #8e0c3a;
+                margin-bottom:5px;
+              }
+              dd{
+                a{
+                  all:initial;
+                  font-size: 12px;
+                  color: #333333;
+                }
+                a:hover{
+                  background: none;
+                  color: #8e0c3a;
+                }
+              }
+            }
+          }
+          .head-nav-default-li{
+            width: 96px;
+            color: #fff;
+            font-size: 14px;
+            background: #8e0c3a;
+            em{
+              font-style: normal;
+              font-size: 16px;
+              margin-right:1px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+

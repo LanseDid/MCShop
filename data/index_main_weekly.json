@@ -1,0 +1,74 @@
+[
+  {
+    "titleE": "Special Offer",
+    "titleC":"特别推荐",
+    "src1": "resource/imgs/index_main_1.jpg",
+    "src2": "resource/imgs/index_main_2.jpg",
+    "src3": "resource/imgs/index_main_3.jpg",
+    "src4": "resource/imgs/index_main_4.jpg",
+    "src5": "resource/imgs/index_main_5.jpg"
+  },
+  {
+    "titleE": "For Him",
+    "titleC":"男仕精选",
+    "src1": "resource/imgs/index_main_6.jpg",
+    "src2": "resource/imgs/index_main_7.jpg",
+    "src3": "resource/imgs/index_main_8.jpg",
+    "src4": "resource/imgs/index_main_9.jpg",
+    "src5": "resource/imgs/index_main_10.jpg"
+  },
+  {
+    "titleE": "For Her",
+    "titleC":"女士精选",
+    "src1": "resource/imgs/index_main_11.jpg",
+    "src2": "resource/imgs/index_main_12.jpg",
+    "src3": "resource/imgs/index_main_13.jpg",
+    "src4": "resource/imgs/index_main_14.jpg",
+    "src5": "resource/imgs/index_main_15.jpg"
+  },
+  {
+    "titleE": "Big Sales",
+    "titleC":"特惠专区",
+    "src1": "resource/imgs/index_main_16.jpg",
+    "src2": "resource/imgs/index_main_17.jpg",
+    "src3": "resource/imgs/index_main_18.jpg",
+    "src4": "resource/imgs/index_main_19.jpg",
+    "src5": "resource/imgs/index_main_20.jpg"
+  },
+  {
+    "titleE": "Special Offer",
+    "titleC":"特别推荐",
+    "src1": "resource/imgs/index_main_1.jpg",
+    "src2": "resource/imgs/index_main_2.jpg",
+    "src3": "resource/imgs/index_main_3.jpg",
+    "src4": "resource/imgs/index_main_4.jpg",
+    "src5": "resource/imgs/index_main_5.jpg"
+  },
+  {
+    "titleE": "For Him",
+    "titleC":"男仕精选",
+    "src1": "resource/imgs/index_main_6.jpg",
+    "src2": "resource/imgs/index_main_7.jpg",
+    "src3": "resource/imgs/index_main_8.jpg",
+    "src4": "resource/imgs/index_main_9.jpg",
+    "src5": "resource/imgs/index_main_10.jpg"
+  },
+  {
+    "titleE": "For Her",
+    "titleC":"女士精选",
+    "src1": "resource/imgs/index_main_11.jpg",
+    "src2": "resource/imgs/index_main_12.jpg",
+    "src3": "resource/imgs/index_main_13.jpg",
+    "src4": "resource/imgs/index_main_14.jpg",
+    "src5": "resource/imgs/index_main_15.jpg"
+  },
+  {
+    "titleE": "Big Sales",
+    "titleC":"特惠专区",
+    "src1": "resource/imgs/index_main_16.jpg",
+    "src2": "resource/imgs/index_main_17.jpg",
+    "src3": "resource/imgs/index_main_18.jpg",
+    "src4": "resource/imgs/index_main_19.jpg",
+    "src5": "resource/imgs/index_main_20.jpg"
+  }
+]

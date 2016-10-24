@@ -1,0 +1,593 @@
+html, body, p, ul, li, ol, dl, dd, dt, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset, img {
+  border: none;
+}
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+body {
+  color: #333;
+  font: 12px/20px "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover, a:active, a:focus {
+  color: #f00;
+  text-decoration: none;
+}
+
+#head {
+  height: 170px;
+}
+#head .head-top {
+  height: 36px;
+  background: #f4f4f4;
+}
+#head .head-top .head-top-mid {
+  width: 960px;
+  height: 36px;
+  margin: 0 auto;
+  color: #7a7a7a;
+}
+#head .head-top .head-top-mid .head-top-mid-leftul {
+  float: left;
+  height: 36px;
+  line-height: 36px;
+}
+#head .head-top .head-top-mid .head-top-mid-leftul li {
+  float: left;
+  padding-right: 15px;
+}
+#head .head-top .head-top-mid .head-top-mid-leftul li a {
+  color: #7a7a7a;
+}
+#head .head-top .head-top-mid .head-top-mid-leftul li a:hover {
+  color: #8e0c3a;
+}
+#head .head-top .head-top-mid .head-top-mid-leftul li img {
+  vertical-align: middle;
+}
+#head .head-top .head-top-mid .head-top-mid-rightul {
+  float: right;
+  height: 36px;
+  line-height: 36px;
+}
+#head .head-top .head-top-mid .head-top-mid-rightul li {
+  float: left;
+  padding-left: 24px;
+}
+#head .head-top .head-top-mid .head-top-mid-rightul li a span {
+  color: #8e0c3a;
+}
+#head .head-top-mid-rightli1-backgorund {
+  position: relative;
+}
+#head .head-top-mid-rightli1-backgorund .head-top-second {
+  width: 160px;
+  height: 60px;
+  border: 1px solid #cccccc;
+  position: absolute;
+  background: #ffffff;
+  left: -82px;
+  display: none;
+}
+#head .head-top-mid-rightli1-backgorund .head-top-second dl {
+  margin-top: 10px;
+  float: left;
+  text-align: center;
+  width: 80px;
+  height: 60px;
+}
+#head .head-top-mid-rightli1-backgorund .head-top-second dl dt {
+  height: 23px;
+}
+#head .head-top-mid-rightli1-backgorund .head-top-second dl dd {
+  height: 23px;
+}
+#head .head-top-mid-rightli1-backgorund .follow-closely {
+  float: left;
+  width: 13px;
+  height: 12px;
+  margin-top: 12px;
+  margin-right: 2px;
+  background: url("../../resource/imgs/headico01.png") no-repeat;
+  background-position: -3px -16px;
+}
+#head .head-top-mid-rightli1-backgorund .follow-closely:hover {
+  background-position: -23px -16px;
+}
+#head .head-top-mid-rightli2-backgorund {
+  position: relative;
+}
+#head .head-top-mid-rightli2-backgorund .head-top-second {
+  width: 265px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-top: none;
+  background: #ffffff url("../../resource/imgs/xxx.gif") no-repeat top center;
+  position: absolute;
+  z-index: 2;
+  padding-left: 10px;
+  paddng-right: 5px;
+  left: -155px;
+  top: 36px;
+  display: none;
+}
+#head .head-top-mid-rightli2-backgorund .head-top-second dl {
+  width: 255px;
+  height: 60px;
+  border-bottom: 1px solid #cccccc;
+}
+#head .head-top-mid-rightli2-backgorund .head-top-second dl dt {
+  float: left;
+  margin-right: 3px;
+}
+#head .head-top-mid-rightli2-backgorund .head-top-second dl dd {
+  float: left;
+  width: 190px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+#head .head-top-mid-rightli2-backgorund em {
+  float: left;
+  width: 20px;
+  height: 16px;
+  margin-top: 10px;
+  margin-right: 4px;
+  background: url("../../resource/imgs/headico01.png") no-repeat;
+  background-position: 0px -30px;
+}
+#head .head-top-mid-rightli2-backgorund img {
+  margin-left: 6px;
+  vertical-align: middle;
+}
+#head .head-top-mid-rightli2-backgorund span {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+#head .head-top-mid-rightli2-backgorund a:hover {
+  color: #7a7a7a;
+}
+#head .head-logo {
+  height: 100px;
+}
+#head .head-logo .head-logo-mid {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+#head .head-logo .head-logo-mid .head-logo-wechat {
+  float: left;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+#head .head-logo .head-logo-mid .head-logo-wechat img {
+  vertical-align: middle;
+}
+#head .head-logo .head-logo-mid .head-logo-logo {
+  float: left;
+  margin-left: 162px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+#head .head-logo .head-logo-mid .head-logo-search {
+  float: right;
+  margin-top: 37px;
+}
+#head .head-logo .head-logo-mid .head-logo-search .search {
+  float: left;
+  width: 130px;
+  height: 24px;
+  color: #999;
+  font-size: 12px;
+  line-height: 24px;
+  padding-left: 2px;
+  border: 1px solid #afafaf;
+  border-right: none;
+}
+#head .head-logo .head-logo-mid .head-logo-search .searchbtn {
+  width: 26px;
+  height: 26px;
+  float: left;
+  border: 1px solid #afafaf;
+  border-left: none;
+  background: url("../../resource/imgs/head5.jpg") no-repeat left center;
+  cursor: pointer;
+}
+#head .head-nav {
+  height: 33px;
+}
+#head .head-nav .head-nav-mid {
+  width: 960px;
+  height: 33px;
+  margin: 0 auto;
+}
+#head .head-nav .head-nav-mid .head-nav-ul {
+  width: 960px;
+  height: 33px;
+  position: relative;
+  border-bottom: 1px solid #333333;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li {
+  float: left;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li a {
+  text-align: center;
+  display: block;
+  width: 108px;
+  height: 33px;
+  color: #333333;
+  line-height: 33px;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li a:hover {
+  color: #fff;
+  background: #8e0c3a;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .main-second-level {
+  width: 943px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  position: absolute;
+  z-index: 99;
+  height: auto;
+  display: none;
+  left: 0px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .main-second-level .main-second-level-dl {
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .main-second-level .main-second-level-dl dt {
+  color: #8e0c3a;
+  margin-bottom: 5px;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .main-second-level .main-second-level-dl dd a {
+  all: initial;
+  font-size: 12px;
+  color: #333333;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .main-second-level .main-second-level-dl dd a:hover {
+  background: none;
+  color: #8e0c3a;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .head-nav-default-li {
+  width: 96px;
+  color: #fff;
+  font-size: 14px;
+  background: #8e0c3a;
+}
+#head .head-nav .head-nav-mid .head-nav-ul li .head-nav-default-li em {
+  font-style: normal;
+  font-size: 16px;
+  margin-right: 1px;
+}
+
+#foot {
+  height: 311px;
+  margin-top: 30px;
+}
+#foot .footmid {
+  width: 960px;
+  height: 311px;
+  margin: 0 auto;
+}
+#foot .footmid .foot-help {
+  width: 960px;
+  height: 86px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-top: 1px solid #cccccc;
+}
+#foot .footmid .foot-help dl {
+  float: left;
+  margin-right: 46px;
+  padding-top: 7px;
+}
+#foot .footmid .foot-help dl dt {
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #666666;
+}
+#foot .footmid .foot-help dl dd {
+  line-height: 20px;
+}
+#foot .footmid .foot-help dl dd a {
+  color: #7a7a7a;
+}
+#foot .footmid .foot-help .foot-help-phone {
+  width: 240px;
+  height: 70px;
+  padding-top: 16px;
+  border-left: 1px solid #cccccc;
+  text-align: center;
+  vertical-align: middle;
+  color: #6a6666;
+  float: left;
+  font-weight: bold;
+}
+#foot .footmid .foot-help .foot-help-phone li {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+#foot .footmid .foot-help .foot-help-phone li span {
+  font-size: 20px;
+}
+#foot .footmid .foot-help .foot-help-service {
+  width: 145px;
+  height: 70px;
+  padding-top: 16px;
+  border-left: 1px solid #cccccc;
+  text-align: center;
+  vertical-align: middle;
+  color: #6a6666;
+  float: left;
+  font-weight: bold;
+}
+#foot .footmid .foot-help .foot-help-service li .qq {
+  float: left;
+  display: block;
+  width: 20px;
+  height: 22px;
+  margin-right: 12px;
+  margin-left: 48px;
+  background: url("../../resource/imgs/footico.gif") no-repeat;
+}
+#foot .footmid .foot-help .foot-help-service li .service {
+  float: left;
+  width: 20px;
+  height: 22px;
+  background: url("../../resource/imgs/footico.gif") no-repeat;
+  background-position: -20px 0px;
+}
+#foot .footmid .foot-help .foot-help-aboutus {
+  float: left;
+  width: 190px;
+  height: 86px;
+  border-left: 1px solid #cccccc;
+}
+#foot .footmid .foot-help .foot-help-aboutus li {
+  text-align: center;
+  color: #666666;
+  width: 72px;
+  height: 91px;
+  float: left;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+#foot .footmid .foot-nav {
+  width: 960px;
+  height: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #eeeeee;
+}
+#foot .footmid .foot-nav .foot-nav-ul {
+  margin-left: 70px;
+}
+#foot .footmid .foot-nav .foot-nav-ul li {
+  float: left;
+}
+#foot .footmid .foot-nav .foot-nav-ul li a {
+  text-align: center;
+  display: block;
+  width: 90px;
+  height: 22px;
+  line-height: 22px;
+  color: #7a7a7a;
+}
+#foot .footmid .foot-nav .foot-nav-ul li a:hover {
+  background: #7a7a7a;
+  color: #ffffff;
+}
+#foot .footmid .foot-friend {
+  width: 960px;
+  height: 25px;
+  text-align: center;
+}
+#foot .footmid .foot-friend .foot-friend-ul li {
+  margin-right: 10px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-1 {
+  padding-left: 242px;
+  float: left;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-1 a {
+  display: block;
+  width: 20px;
+  height: 22px;
+  background: url("../../resource/imgs/foot_pic_s.jpg") no-repeat;
+  background-position: -1px -110px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-1 a:hover {
+  background-position: -1px 0;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-2 {
+  float: left;
+  padding-top: 5px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-2 a {
+  display: block;
+  width: 88px;
+  height: 14px;
+  background: url("../../resource/imgs/foot_pic_s.jpg") no-repeat center center;
+  background-position: -6px -158px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-2 a:hover {
+  background-position: -6px -48px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-3 {
+  float: left;
+  padding-top: 6px;
+  margin-left: 50px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-3 a {
+  display: block;
+  width: 50px;
+  height: 12px;
+  background: url("../../resource/imgs/foot_pic_s.jpg") no-repeat center center;
+  background-position: -12px -138px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-3 a:hover {
+  background-position: -12px -28px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-4 {
+  float: left;
+  padding-top: 1px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-4 a {
+  display: block;
+  width: 64px;
+  height: 22px;
+  background: url("../../resource/imgs/foot_pic_s.jpg") no-repeat center center;
+  background-position: -187px -181px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-4 a:hover {
+  background-position: -187px -71px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-5 {
+  float: left;
+  padding-top: 5px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-5 a {
+  display: block;
+  width: 62px;
+  height: 15px;
+  background: url("../../resource/imgs/foot_pic_s.jpg") no-repeat center center;
+  background-position: -70px -112px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-5 a:hover {
+  background-position: -70px -2px;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-6 {
+  float: left;
+}
+#foot .footmid .foot-friend .foot-friend-ul .foot-friend-6 a {
+  display: block;
+  width: 85px;
+  height: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #5a5a5a;
+}
+#foot .footmid .foot-copy {
+  width: 960px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #777777;
+  text-align: center;
+}
+#foot .footmid .foot-safe {
+  width: 960px;
+  text-align: center;
+}
+
+#head {
+  height: 136px;
+}
+
+#foot {
+  height: 122px;
+  margin-top: 20px;
+}
+#foot .footmid {
+  height: 122px;
+}
+#foot .footmid .foot-nav {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+#main {
+  padding-top: 20px;
+}
+#main .mainmid {
+  width: 960px;
+  height: 490px;
+  padding-top: 27px;
+  margin: 0 auto;
+  background: url("../../resource/imgs/register_main_bg.jpg") no-repeat center center;
+}
+#main .mainmid .mainmid-welcome {
+  margin-left: 66px;
+  height: 142px;
+  margin-bottom: 20px;
+}
+#main .mainmid form {
+  margin-left: 100px;
+  padding-left: 10px;
+}
+#main .mainmid form label {
+  color: #666666;
+}
+#main .mainmid form .username, #main .mainmid form .password {
+  width: 200px;
+  height: 20px;
+  line-height: 20px;
+  color: #cccccc;
+  border: 1px solid #bbbbbb;
+}
+#main .mainmid form .checkbox {
+  margin-left: 66px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#main .mainmid form .forget-pw {
+  margin-left: 55px;
+}
+#main .mainmid form .login {
+  width: 204px;
+  height: 30px;
+  border: none;
+  background: #8e0c3a;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 66px;
+  margin-bottom: 5px;
+}
+#main .mainmid form .to-registe {
+  margin-left: 66px;
+  margin-bottom: 10px;
+  width: 204px;
+  height: 20px;
+}
+#main .mainmid form .to-registe span {
+  display: inline-block;
+  float: right;
+}
+#main .mainmid form .to-registe span a {
+  color: #8e0c3a;
+}
+#main .mainmid form .error-info {
+  margin-left: 66px;
+  color: #8e0c3a;
+}
+
+/*# sourceMappingURL=login.css.map */

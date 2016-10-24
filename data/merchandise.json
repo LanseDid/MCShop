@@ -1,0 +1,18 @@
+[
+  {
+    "goodid":"01",
+    "goodprice":"460",
+    "gooddescribe":"Boy London 伦敦男孩 全棉 男士 T恤",
+    "XS":"3",
+    "S":"1",
+    "goodsrc":"resource/imgs/details_magnifier_co1.jpg"
+  },
+  {
+    "goodid":"02",
+    "goodprice":"2360",
+    "gooddescribe":"Issey Miyake 三宅一生 PVC 女士 手提包",
+    "XS":"3",
+    "S":"1",
+    "goodsrc":"resource/imgs/details_magnifier_co21.jpg"
+  }
+]
